@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecfb3268-8df3-47f1-927b-4ef5c956fcd7" name="Changes" comment="Randomizes maze structure and allows for player movement">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Treasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Upgrade.java" afterDir="false" />
+    <list default="true" id="ecfb3268-8df3-47f1-927b-4ef5c956fcd7" name="Changes" comment="Moved classes to separate files and created rendering of maze">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Emptiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Treasure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Upgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Upgrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725522997418</updated>
-      <workItem from="1725522998473" duration="36374000" />
+      <workItem from="1725522998473" duration="69085000" />
     </task>
     <task id="LOCAL-00001" summary="Randomizes maze structure and allows for player movement">
       <option name="closed" value="true" />
@@ -100,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725601744651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved classes to separate files and created rendering of maze">
+      <option name="closed" value="true" />
+      <created>1725873441459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725873441459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Randomizes maze structure and allows for player movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Randomizes maze structure and allows for player movement" />
+    <MESSAGE value="Moved classes to separate files and created rendering of maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved classes to separate files and created rendering of maze" />
   </component>
 </project>

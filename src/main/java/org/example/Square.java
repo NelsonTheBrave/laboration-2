@@ -3,10 +3,10 @@ package org.example;
 public class Square {
     private int x;
     private int y;
-    private String content;
+    private Object content;
 
     // Constructor for Square
-    public Square(int x, int y, String content) {
+    public Square(int x, int y, Object content) {
         this.x = x;
         this.y = y;
         this.content = content;
@@ -21,7 +21,10 @@ public class Square {
         return y;
     }
 
-    public String getContent() {
+    public Object getContent() {
         return content;
+    }
+    public void setContent(Object content) {
+        this.content = content;
     }
 }
